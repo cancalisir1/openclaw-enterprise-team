@@ -4,9 +4,9 @@
     <b>An enterprise-grade, 12-agent software development team architecture powered by <a href="https://openclaw.ai">OpenClaw</a>.</b>
   </p>
   <p>
-    <a href="https://github.com/canca/openclaw-enterprise-team/stargazers"><img src="https://img.shields.io/github/stars/canca/openclaw-enterprise-team?style=flat-square&color=yellow" alt="Stars" /></a>
-    <a href="https://github.com/canca/openclaw-enterprise-team/network/members"><img src="https://img.shields.io/github/forks/canca/openclaw-enterprise-team?style=flat-square&color=blue" alt="Forks" /></a>
-    <a href="https://github.com/canca/openclaw-enterprise-team/issues"><img src="https://img.shields.io/github/issues/canca/openclaw-enterprise-team?style=flat-square&color=green" alt="Issues" /></a>
+    <a href="https://github.com/cancalisir1/openclaw-enterprise-team/stargazers"><img src="https://img.shields.io/github/stars/cancalisir1/openclaw-enterprise-team?style=flat-square&color=yellow" alt="Stars" /></a>
+    <a href="https://github.com/cancalisir1/openclaw-enterprise-team/network/members"><img src="https://img.shields.io/github/forks/cancalisir1/openclaw-enterprise-team?style=flat-square&color=blue" alt="Forks" /></a>
+    <a href="https://github.com/cancalisir1/openclaw-enterprise-team/issues"><img src="https://img.shields.io/github/issues/cancalisir1/openclaw-enterprise-team?style=flat-square&color=green" alt="Issues" /></a>
     <img src="https://img.shields.io/badge/OpenClaw-Compatible-blueviolet?style=flat-square" alt="OpenClaw Compatible" />
     <img src="https://img.shields.io/badge/Architecture-Multi--Agent-orange?style=flat-square" alt="Multi-Agent" />
   </p>
@@ -82,7 +82,7 @@ openclaw-enterprise-team/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/openclaw-enterprise-team.git
+   git clone https://github.com/cancalisir1/openclaw-enterprise-team.git
    cd openclaw-enterprise-team
    ```
 
@@ -114,7 +114,7 @@ We are looking for:
 - New Promptfoo evaluation scenarios in `shared/evals/`.
 - Advanced Autoresearch loop examples for `labs/optimization/`.
 
-Feel free to check [issues page](https://github.com/YOUR_USERNAME/openclaw-enterprise-team/issues). If you want to contribute, please fork the repository and use a feature branch.
+Feel free to check [issues page](https://github.com/cancalisir1/openclaw-enterprise-team/issues). If you want to contribute, please fork the repository and use a feature branch.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
