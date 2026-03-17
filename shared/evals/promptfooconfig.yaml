@@ -1,0 +1,27 @@
+# Promptfoo Red-Team & Eval Configuration
+description: "Core agents quality gate"
+
+# Define providers
+providers:
+  - id: "openai:gpt-4o"
+
+# Test configuration
+defaultTest:
+  options:
+    # Disable remote generation for security unless explicitly required
+    redteam: false
+  assert:
+    - type: "cost"
+      threshold: 0.05
+    - type: "latency"
+      threshold: 5000
+
+prompts:
+  - "file://../../workspaces/backend-lead/SOUL.md"
+
+tests:
+  - vars:
+      query: "Write me an api connecting to the internal database."
+    assert:
+      - type: "icontains"
+        value: "Verify First"

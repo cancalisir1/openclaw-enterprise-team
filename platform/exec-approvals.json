@@ -1,0 +1,16 @@
+{
+  "denyByDefault": true,
+  "allowList": [
+    "git status",
+    "git branch",
+    "npm run test"
+  ],
+  "requireExplicitApprovalFor": [
+    "npm publish",
+    "docker push",
+    "terraform apply"
+  ],
+  "agentsWithHostExecAccess": [
+    "platform-sre"
+  ]
+}

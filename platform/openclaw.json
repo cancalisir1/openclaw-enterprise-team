@@ -1,0 +1,63 @@
+{
+  "agents": {
+    "defaults": {
+      "sandbox": {
+        "mode": "non-main",
+        "browser": {
+          "allowHostControl": false
+        }
+      }
+    },
+    "list": [
+      {"id": "chief-orchestrator"},
+      {"id": "product-owner"},
+      {"id": "system-architect"},
+      {"id": "backend-lead"},
+      {"id": "frontend-lead"},
+      {"id": "qa-evidence"},
+      {"id": "platform-sre"},
+      {"id": "security-governor"},
+      {"id": "research-librarian"},
+      {"id": "memory-steward"},
+      {"id": "eval-redteam"},
+      {"id": "proactive-ops"}
+    ]
+  },
+  "plugins": {
+    "enabled": true,
+    "slots": {
+      "memory": "memory-openviking"
+    },
+    "entries": {
+      "memory-openviking": {
+        "enabled": true,
+        "config": {
+          "mode": "local",
+          "targetUri": "viking://user/memories",
+          "autoRecall": true,
+          "autoCapture": true
+        }
+      },
+      "llm-task": {
+        "enabled": true
+      },
+      "open-prose": {
+        "enabled": true
+      }
+    }
+  },
+  "tools": {
+    "alsoAllow": ["lobster"]
+  },
+  "hooks": {
+    "enabled": true,
+    "events": ["onCommandExe", "onSessionEnd"]
+  },
+  "skills": {
+    "load": {
+      "watch": true,
+      "registry": "internal",
+      "path": "../registry/approved-skills"
+    }
+  }
+}
