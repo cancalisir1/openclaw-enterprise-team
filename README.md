@@ -1,76 +1,74 @@
 <div align="center">
   <h1>🦁 OpenClaw Enterprise Team</h1>
   <p>
-    <b>An enterprise-grade, 12-agent software development team architecture powered by <a href="https://openclaw.ai">OpenClaw</a>.</b>
+    <b>Stop chatting with AI. Start operating an enterprise-grade, 12-agent software engineering department powered by <a href="https://openclaw.ai">OpenClaw</a>.</b>
   </p>
   <p>
     <a href="https://github.com/cancalisir1/openclaw-enterprise-team/stargazers"><img src="https://img.shields.io/github/stars/cancalisir1/openclaw-enterprise-team?style=flat-square&color=yellow" alt="Stars" /></a>
     <a href="https://github.com/cancalisir1/openclaw-enterprise-team/network/members"><img src="https://img.shields.io/github/forks/cancalisir1/openclaw-enterprise-team?style=flat-square&color=blue" alt="Forks" /></a>
     <a href="https://github.com/cancalisir1/openclaw-enterprise-team/issues"><img src="https://img.shields.io/github/issues/cancalisir1/openclaw-enterprise-team?style=flat-square&color=green" alt="Issues" /></a>
-    <img src="https://img.shields.io/badge/OpenClaw-Compatible-blueviolet?style=flat-square" alt="OpenClaw Compatible" />
-    <img src="https://img.shields.io/badge/Architecture-Multi--Agent-orange?style=flat-square" alt="Multi-Agent" />
+    <img src="https://img.shields.io/badge/OpenClaw-Ready-blueviolet?style=flat-square" alt="OpenClaw Compatible" />
+    <img src="https://img.shields.io/badge/Architecture-Behavioral_OS-orange?style=flat-square" alt="Behavioral OS" />
   </p>
 </div>
 
 <br/>
 
-## 🚀 Overview
+## 🛑 The Problem with "Agent Swarms" Today
 
-Welcome to the **OpenClaw Enterprise Team** repository! This project implements a cutting-edge, 12-agent architecture designed for enterprise software development. It moves beyond "just talking to AI" into a **structured, approval-gated, and self-improving operational team**.
+Most multi-agent frameworks fail in production. When you spawn 50 agents in a chat loop, you get prompt drift, endless hallucinations, execution chaos, and blown token budgets. **They act like a brainstorming session, not a software company.**
 
-By leveraging the OpenClaw gateway, this architecture introduces strict delivery contracts, memory management, security governors, and continuous optimization pipelines (MiroFish-inspired labs & Autoresearch loops).
+## 🚀 The Solution: A Behavioral Operating System
 
-💡 **Why this architecture? How does it differ from other Agent frameworks?**
+Welcome to the **OpenClaw Enterprise Team**. This is **not a magic script** that writes your app in one click. It is a strict, workspace-first **Behavioral Operating System** for AI agents. 
 
-This architecture synthesizes the best ideas from recent top-starred AI repositories into one cohesive, enterprise-ready system:
-
-- 🔬 **[Autoresearch](https://github.com/karpathy/autoresearch)-inspired Optimization Lab:** Instead of blind prompting, we include a relentless `labs/optimization/` loop with `results.tsv` keep/discard decisions to benchmark routing, prompts, and team behavior using empirical data.
-- 🐡 **[MiroFish](https://github.com/666ghj/MiroFish)-inspired Simulation Lab:** High-risk architectural and go-to-market decisions are tested in `labs/simulation/` with specialized personas (Attacker, Power User, Support Rep) before any code is written.
-- 🦸 **[Superpowers](https://github.com/obra/superpowers)-style Delivery Protocol:** We enforce a strict documentation-first pipeline (`PRD -> ADR -> PLAN -> EVIDENCE`). Agents **must** provide automated/visual evidence (via Promptfoo/browser tests) before the Chief Orchestrator synthesizes the merge.
-- 🧠 **[Hindsight/OpenViking](https://github.com/vectorize-io/hindsight)-inspired Memory & Learning:** Moving beyond standard RAG. The `Memory Steward` analyzes `.learnings/` daily. If an agent repeats an error or pattern 3+ times, the rule is promoted to core `SOUL/AGENTS/MEMORY/TOOLS` files, updating the team's "DNA".
-- 🛡️ **[ClawHub](https://clawhub.ai)-style Proactive WAL (Write-Ahead Log):** Agents use isolated working buffers and self-correction flows. "Verify before reporting" and "Search before saying I don't know" are baked into their `SOUL.md`.
-- 🏢 **Elastic [Agency-Agents](https://github.com/msitarzewski/agency-agents):** Instead of running 50+ agents simultaneously (which crashes coordination), we maintain 12 permanent core agents (like `QA-Evidence`, `Platform-SRE`, `Security-Governor`) and spawn specific domain experts only when explicitly needed.
+We provide the folder structure, the core prompts (`SOUL.md`), the security constraints, and the delivery protocols. You provide the Product Requirements Document (`PRD`). The agents handle the rest—under strict supervision.
 
 ---
 
-## 🏗️ The 12-Agent Topology
+## 💡 Why This Architecture? (The "Best-Of" Synthesis)
 
-The team is divided into 4 operational planes focusing on different aspects of the software lifecycle:
+We didn't invent from scratch; we synthesized the most successful behavioral patterns from top-starred AI repositories into one cohesive, enterprise-ready gateway:
 
-### 1. Control Plane
-- 👑 **Chief Orchestrator:** Delegates work, manages sprint planning, and owns the handoff synthesis.
-- 📐 **Product Owner:** Owns the PRD, acceptance criteria, and what gets built.
-- 🏗️ **System Architect:** Owns cross-component architectures (ADR) and system boundaries.
-
-### 2. Delivery Plane
-- ⚙️ **Backend Lead:** Owns services, data flows, integration, and API contracts.
-- 🎨 **Frontend Lead:** Owns UI flows, components, and UX constraints.
-- 🧪 **QA Evidence:** Enforces the "Done equals Evidence" culture. Has release veto power.
-- 🛡️ **Security Governor:** Controls the skill supply chain, threat modeling, and sec policy.
-- 🚀 **Platform SRE:** Owns CI/CD, deployment strategy, observability, and runbooks.
-
-### 3. Knowledge Plane
-- 📚 **Research Librarian:** Aggregates docs, RFCs, and external context mapping.
-- 🧠 **Memory Steward:** Controls learning promotions to core memory to avoid prompt drift.
-- ⚖️ **Eval Redteam:** Owns the objective quality gates and promptfoo test suites.
-
-### 4. Lab & Ops Plane
-- 🛠️ **Proactive Ops:** Runs isolated cron jobs for stale task detection, heartbeat chores.
-
-*(Note: Additional roles like UI/UX Designer, Database Optimizer, or Domain Specialists are **spawned elastically** as needed, preventing coordination bloat.)*
+* 🔬 **[Autoresearch](https://github.com/karpathy/autoresearch)-inspired Optimization:** No blind prompting. Agents log empirical results to `results.tsv` (keep/discard) to track which workflows actually succeed.
+* 🐡 **[MiroFish](https://github.com/666ghj/MiroFish)-inspired Sim Lab:** Test risky architectures in `labs/simulation/` with specialized personas (Attacker, Power User, SRE) *before* writing code.
+* 🦸 **[Superpowers](https://github.com/obra/superpowers)-style Delivery:** A ruthless `PRD -> ADR -> PLAN -> EVIDENCE` pipeline. Code isn't "done" until the `QA Evidence` agent signs off.
+* 🧠 **[Hindsight/OpenViking](https://github.com/vectorize-io/hindsight)-inspired Memory:** The `Memory Steward` reads `.learnings/`. If an agent makes the same mistake 3 times, their core DNA (`SOUL.md`) is rewritten for the whole team.
+* 🛡️ **[ClawHub](https://clawhub.ai)-style Proactive WAL:** Baked into every agent's soul: *“Write it down before acting. Search before saying I don’t know. Verify before reporting.”*
+* 🏢 **Elastic [Agency-Agents](https://github.com/msitarzewski/agency-agents):** We cap the permanent team at **12 Core Roles** (QA, SecGov, MemSteward) to prevent coordination collapse. Domain experts are spawned elastically.
 
 ---
 
-## 📂 Repository Structure
+## ⚙️ How It Actually Works (Out of the Box vs. Protocol)
+
+### Out-of-the-Box Magic 🪄
+When you run `openclaw serve`, you instantly get:
+- **12 Ready Agents:** `Chief Orchestrator`, `Backend Lead`, `Security Governor`, etc., fully loaded with their isolated `SOUL` and `TOOLS`.
+- **Hardened Security:** The `exec-approvals.json` actually blocks agents from running `npm publish` or `docker push` without your manual terminal approval.
+- **Command Auditing:** The `command-logger.js` hook captures every shell command executed across the team.
+- **Eval Gates:** Run `npx promptfoo eval` and watch the automated test suite grade your agents' behavior.
+
+### The Behavioral Protocol 📜
+The real power is how the agents *play the game*. 
+- You drop a `docs/prd/PRD-001.md`.
+- You tell the **Chief Orchestrator**: *"Execute PRD-001."*
+- The Chief doesn't write code; it delegates to the **System Architect** to write an `ADR`.
+- **Backend/Frontend** agents write the code in secure sandboxes.
+- **QA Evidence** runs the tests. 
+- Nothing is merged without the Chief's final synthesis.
+
+---
+
+## 📂 Repository Layout
 
 ```text
 openclaw-enterprise-team/
-├── platform/         # Control plane configs (openclaw.json) & security approvals
-├── workspaces/       # Individual 12-agent workspaces (AGENTS, SOUL, TOOLS, MEMORY)
-├── shared/           # Cross-agent templates, OpenProse workflows, global Promptfoo evals
-├── registry/         # Internal skill package mirror (Approved, Candidate, Rejected)
-├── labs/             # Optimization loops (results.tsv) & Simulation scenario skeletons
-└── docs/             # Product lifecycle artifacts (PRD, ADR, PLANS, EVIDENCE)
+├── platform/         # 🧠 The Control Plane (openclaw.json, security approvals, hooks)
+├── workspaces/       # 🏢 The Office (12 isolated agent environments: AGENTS, SOUL, MEMORY)
+├── shared/           # 🌐 Global assets (Promptfoo evals, OpenProse templates)
+├── registry/         # 📦 The Vault (Approved/Rejected external skills)
+├── labs/             # 🧪 The R&D Dept (Optimization loops, Personas, Simulations)
+└── docs/             # 📊 The Factory Floor (PRDs, ADRs, Execution Plans, Evidence)
 ```
 
 ---
@@ -79,9 +77,8 @@ openclaw-enterprise-team/
 
 ### Prerequisites
 
-1. Install [OpenClaw](https://openclaw.ai) in your environment.
-2. Ensure you have the necessary model provider API keys.
-3. *(Optional)* Install **OpenViking** for the layered context memory DB.
+1. Install [OpenClaw](https://openclaw.ai).
+2. Grab your LLM API keys (GPT-4o/Claude 3.5 Sonnet recommended for reasoning).
 
 ### Installation
 
@@ -92,42 +89,23 @@ openclaw-enterprise-team/
    ```
 
 2. **Start the OpenClaw Gateway:**
-   Point OpenClaw to the platform configuration file:
    ```bash
    openclaw serve --config platform/openclaw.json
    ```
 
-3. **Initialize a Project:**
-   Start a session with the `chief-orchestrator` agent and drop a new PRD into `docs/prd/PRD-001.md`.
+3. **Deploy your first task:**
+   Open a session with the `chief-orchestrator`. Point it to `docs/prd/PRD-TEMPLATE.md` and watch the enterprise machinery spin up.
 
 ---
 
-## 🛡️ Operating Principles & Security
+## 🤝 Contributing & Community
 
-- **Sandbox Default:** Non-main agents run purely in the sandbox.
-- **Host Execution is Denied by Default:** Managed stringently by `platform/exec-approvals.json` and the `Platform SRE` agent.
-- **No Direct Merges:** Code is generated in separate branches/sessions; `QA Evidence` runs test pipelines and outputs `EVID` documents before `Chief Orchestrator` synthesizes the merge.
-- **Skill Intake Pipeline:** `Find Skills` is used for discovery only. All skills are audited by the `Security Governor` before migrating to `registry/approved-skills/`.
+Help us refine the "Operating System of AI Engineering". We need:
+- Tighter `SOUL.md` prompt engineering.
+- Stricter `Eval` gates covering edge cases.
+- More robust `Autoresearch` workflow examples.
 
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! 
-We are looking for:
-- Refined `SOUL.md` prompt instructions for specific agents.
-- New Promptfoo evaluation scenarios in `shared/evals/`.
-- Advanced Autoresearch loop examples for `labs/optimization/`.
-
-Feel free to check [issues page](https://github.com/cancalisir1/openclaw-enterprise-team/issues). If you want to contribute, please fork the repository and use a feature branch.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
+If you like what you see, **Star the repo ⭐**, fork it, and open a PR!
 
 <div align="center">
   Generated with ❤️ for the AI multi-agent community.
