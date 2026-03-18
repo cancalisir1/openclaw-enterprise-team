@@ -20,11 +20,16 @@ Welcome to the **OpenClaw Enterprise Team** repository! This project implements 
 
 By leveraging the OpenClaw gateway, this architecture introduces strict delivery contracts, memory management, security governors, and continuous optimization pipelines (MiroFish-inspired labs & Autoresearch loops).
 
-💡 **Why this architecture?**
-- **Not a toy:** Real-world enterprise gating (evals, approval hooks, sandbox defaults).
-- **Workspace-First:** Agent state (`AGENTS.md`, `SOUL.md`, `.learnings/`) is the ultimate source of truth.
-- **Delivery Protocol:** Strict `PRD -> ADR -> PLAN -> EVIDENCE` pipeline. No code merges without evidence.
-- **Self-Improving:** Dedicated *Memory Steward* agent curates lessons learned and promotes them to global rules.
+💡 **Why this architecture? How does it differ from other Agent frameworks?**
+
+This architecture synthesizes the best ideas from recent top-starred AI repositories into one cohesive, enterprise-ready system:
+
+- 🔬 **[Autoresearch](https://github.com/karpathy/autoresearch)-inspired Optimization Lab:** Instead of blind prompting, we include a relentless `labs/optimization/` loop with `results.tsv` keep/discard decisions to benchmark routing, prompts, and team behavior using empirical data.
+- 🐡 **[MiroFish](https://github.com/666ghj/MiroFish)-inspired Simulation Lab:** High-risk architectural and go-to-market decisions are tested in `labs/simulation/` with specialized personas (Attacker, Power User, Support Rep) before any code is written.
+- 🦸 **[Superpowers](https://github.com/obra/superpowers)-style Delivery Protocol:** We enforce a strict documentation-first pipeline (`PRD -> ADR -> PLAN -> EVIDENCE`). Agents **must** provide automated/visual evidence (via Promptfoo/browser tests) before the Chief Orchestrator synthesizes the merge.
+- 🧠 **[Hindsight/OpenViking](https://github.com/vectorize-io/hindsight)-inspired Memory & Learning:** Moving beyond standard RAG. The `Memory Steward` analyzes `.learnings/` daily. If an agent repeats an error or pattern 3+ times, the rule is promoted to core `SOUL/AGENTS/MEMORY/TOOLS` files, updating the team's "DNA".
+- 🛡️ **[ClawHub](https://clawhub.ai)-style Proactive WAL (Write-Ahead Log):** Agents use isolated working buffers and self-correction flows. "Verify before reporting" and "Search before saying I don't know" are baked into their `SOUL.md`.
+- 🏢 **Elastic [Agency-Agents](https://github.com/msitarzewski/agency-agents):** Instead of running 50+ agents simultaneously (which crashes coordination), we maintain 12 permanent core agents (like `QA-Evidence`, `Platform-SRE`, `Security-Governor`) and spawn specific domain experts only when explicitly needed.
 
 ---
 
